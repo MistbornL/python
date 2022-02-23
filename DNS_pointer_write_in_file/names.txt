@@ -1,0 +1,2 @@
+dns.google
+ec2-13-251-106-90.ap-southeast-1.compute.amazonaws.com
