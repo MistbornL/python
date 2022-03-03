@@ -4,7 +4,7 @@ def encode_morse(code: str, sequence: dict):
         letter = letter.upper()
         if letter in sequence:
             if letter == " ":
-                to_morse += "    "
+                to_morse += " "
             else:
-                to_morse += "  " + sequence[letter]
-    return to_morse.rstrip()
+                to_morse += " " + sequence[letter]
+    return to_morse.strip()
