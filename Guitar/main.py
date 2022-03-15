@@ -4,7 +4,7 @@ strings = {6:'E', 5:'A', 4:'D', 3:'G', 2:'B', 1:'E'}
 
 
 def main():
-    string_fret("E", 2, notes, strings)
+    print(string_fret(1, 7, notes, strings))
 
 
 if __name__ == "__main__":
