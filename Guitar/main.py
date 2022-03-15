@@ -1,9 +1,10 @@
-# {string : {fret:note}
-notes = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab']
+from service.string import string_fret
+notes = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', "A", "A#/Bb", "B"]
 strings = {6:'E', 5:'A', 4:'D', 3:'G', 2:'B', 1:'E'}
-def main():
-    def string_fret(st, fr, note):
 
+
+def main():
+    string_fret("E", 2, notes, strings)
 
 
 if __name__ == "__main__":
