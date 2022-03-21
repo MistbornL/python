@@ -25,8 +25,8 @@ while True:
         if current or temp or target != "fahrenheit" or "celcius" or "kelvin":
             print("Enter valid temperature type!!")
             continue
+        print(converter([current, temp], target))
     except ValueError:
         print("invalid input")
         continue
 
-print(converter([current, temp], target))
