@@ -13,7 +13,7 @@ def converter(option, target):
     elif current == "kelvin" and target == "celcius":
         return round(temp - 273.5, 1)
     elif current == "kelvin" and target == "farenheit":
-        return round((temp - 273.15) * 9 / 5 + 32, 1, 1)
+        return round((temp - 273.15) * 9/5 + 32, 1)
 
 
 while True:
